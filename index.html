@@ -39,7 +39,7 @@
   ======================================================== -->
 </head>
 
-<body>
+<body style="overflow-x: hidden !important;">
  
 
   <!-- ======= Top Bar ======= -->
@@ -120,77 +120,204 @@
         <!--<div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
           <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" class="glightbox play-btn"></a>
         </div>-->
-
+        <div class="mt-4">
+          <div action="#" method="POST" class="row g-3">
+            <div class="form-group col-md-3">
+              <input type="date" name="date" class="form-control" placeholder="Arrival Date">
+            </div>
+            <div class="form-group col-md-3">
+              <input type="date" name="date" class="form-control">
+            </div>
+            <div class="form-group col-md-2">
+              <select name="select" class="form-control" id="">
+                <option value="adult">Adult</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+              <select name="select" class="form-control" id="">
+                <option value="child">Children</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <button type="submit" class="btn btn-secondary">
+               Check Availability
+              </button>
+            </div>
+            <!-- <input type="submit" value="Send" class="btn btn-block btn-secondary"> -->
+          </form>
+        </div>
       </div>
     </div>
   </section><!-- End Hero -->
 
   <main id="main">
- <!-- ======= Contact Section ======= -->
- <section id="contact" class="contact">
-      <div class="container">
-
-        
-        <div class="row contact-info">
-       </a>
-
+    <section class="container">
+      <div class="row h-100">
+        <div class="col-md-6">
+          <div class="p-5">
+            <h4 class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse amet, perferendis repellendus
+              expedita mollitia quasi exercitationem. Aliquid maxime laudantium recusandae!</h4>
+           <p class="text-center pt-4">
+             Kalanoga Resort is an incredible 15 acre waterfront property, located on the shores of
+              Lake Victoria, 10km south of Kampala central business district. It is a 15 minute drive from Munyonyo
+              Common Wealth Resort off Entebbe Express Highway towards Kajjansi. It offers guests seeking nature. The Resort is known for its beautiful scenery, incredible natural
+              surroundings and encompasses a series of breathe taking vistas, so you can always feel the serenity of the resort.
+           </p>
+          </div>
         </div>
-        <p style="text-align: center;">GET IN TOUCH</p>
-<h3 style="text-align: center;">Drop Us a Line</h3>
-        <div class="form">
-          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-            <div class="row">
-              <div class="col-md-6 form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="First Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              </div>
-              <div class="col-md-6 form-group mt-3 mt-md-0">
-                <input type="text" class="form-control" name="email" id="email" placeholder="Last Name" data-rule="email" data-msg="Please enter a valid email">
-              </div>
-            </div>
-             <div class="form-group mt-3">
-              <input type="email" class="form-control" name="subject" id="subject" placeholder="Email" required>
-            </div>
-            <div class="form-group mt-3">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-            </div>
-            <div class="form-group mt-3">
-              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-            </div>
-            <div class="my-3">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
-            </div>
-
-            <div class="text-center"><button type="submit">Send Message</button></div>
-          </form>
+        <div class="col-md-6">
+          <img src="assets/img/about.jpg" alt="" class="img-fluid">
         </div>
-
       </div>
-
-       <div data-aos="fade-up" style="padding-top: 20px;">
-        <iframe style="border:0; width: 100%; height: 350px;"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.732327832711!2d31.713800314270863!3d-0.3761769354153514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19d78910b6004da5%3A0x927442bebd98004b!2sMasaka%20Cultural%20Resort!5e0!3m2!1sen!2sug!4v1656470117425!5m2!1sen!2sug" frameborder="0" allowfullscreen></iframe>
+    </section>
+    
+    <!-- Featured Section -->
+    <section class="container">
+    <div class="text-center pb-3">
+      <p>ULTIMATE COMFORT</p>
+      <h1>Luxurious Suites</h1>
+    </div>
+      <div class="row">
+        <div class="col-md-4 col-lg-3">
+          <div class="card shadow">
+            <img src="assets/img/about.jpg" alt="" class="img-fluid">
+            <div class="card-body">
+              <div class="">
+                <h4>Executive Deluxe</h4>
+              </div>
+              <div class="">
+                <p><b>Occupancy:</b> Up to 2</p>
+                <p><b>Size:</b> 30sqm</p>
+                <a href="#" class="btn btn-secondary">From $124 / Night</a>
+              </div>
+              <hr>
+              <div class="align-items-center d-flex">
+                <i class="fa fa-twitter"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="card shadow">
+            <img src="assets/img/about.jpg" alt="" class="img-fluid">
+            <div class="card-body">
+              <div class="">
+                <h4>Executive Deluxe</h4>
+              </div>
+              <div class="">
+                <p><b>Occupancy:</b> Up to 2</p>
+                <p><b>Size:</b> 30sqm</p>
+                <a href="#" class="btn btn-secondary">From $124 / Night</a>
+              </div>
+              <hr>
+              <div class="align-items-center d-flex">
+                <i class="fa fa-twitter"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="card shadow">
+            <img src="assets/img/about.jpg" alt="" class="img-fluid">
+            <div class="card-body">
+              <div class="">
+                <h4>Executive Deluxe</h4>
+              </div>
+              <div class="">
+                <p><b>Occupancy:</b> Up to 2</p>
+                <p><b>Size:</b> 30sqm</p>
+                <a href="#" class="btn btn-secondary">From $124 / Night</a>
+              </div>
+              <hr>
+              <div class="align-items-center d-flex">
+                <i class="fa fa-twitter"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="card shadow">
+            <img src="assets/img/about.jpg" alt="" class="img-fluid">
+            <div class="card-body">
+              <div class="">
+                <h4>Executive Deluxe</h4>
+              </div>
+              <div class="">
+                <p><b>Occupancy:</b> Up to 2</p>
+                <p><b>Size:</b> 30sqm</p>
+                <a href="#" class="btn btn-secondary">From $124 / Night</a>
+              </div>
+              <hr>
+              <div class="align-items-center d-flex">
+                <i class="fa fa-twitter"></i>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </section>
 
-
+    <div class="container pb-5">
+      <div class="text-center pb-3">
+        <p>ULTIMATE COMFORT</p>
+        <h1>Luxurious Suites</h1>
       </div>
-     
-    </section><!-- End Contact Section -->
-    <div class="media-scroller">
-      <div class="media-element"><img src="assets/img/galley/g1.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="media-element"><img src="assets/img/galley/g2.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="media-element"><img src="assets/img/galley/g3.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="media-element"><img src="assets/img/galley/g4.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="media-element"><img src="assets/img/galley/g5.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="media-element"><img src="assets/img/galley/g6.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="media-element"><img src="assets/img/galley/g7.jpg" class="img-fluid" alt="">
-              </div>
+      <div class="row">
+        <div class="col-md-4 col-lg-3">
+          <div class="text-center">
+            <i class="fa fa-home"></i>
+            <h2>Drinks & Cocktails</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla et aliquam optio deserunt, 
+              cumque quibusdam esse at error expedita temporibus?
+            </p>
+            <a href="#" class="btn btn-secondary">Read More</a>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="text-center">
+            <i class="fa fa-home"></i>
+            <h2>Drinks & Cocktails</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla et aliquam optio deserunt, 
+              cumque quibusdam esse at error expedita temporibus?
+            </p>
+            <a href="#" class="btn btn-secondary">Read More</a>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="text-center">
+            <i class="fa fa-home"></i>
+            <h2>Drinks & Cocktails</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla et aliquam optio deserunt, 
+              cumque quibusdam esse at error expedita temporibus?
+            </p>
+            <a href="#" class="btn btn-secondary">Read More</a>
+          </div> 
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="text-center">
+            <i class="fa fa-home"></i>
+            <h2>Drinks & Cocktails</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla et aliquam optio deserunt, 
+              cumque quibusdam esse at error expedita temporibus?
+            </p>
+            <a href="#" class="btn btn-secondary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container media-scroller">
+      <div class="media-element"><img src="assets/img/galley/g1.jpg" class="img-fluid" alt=""></div>
+        <div class="media-element"><img src="assets/img/galley/g2.jpg" class="img-fluid" alt=""></div>
+        <div class="media-element"><img src="assets/img/galley/g3.jpg" class="img-fluid" alt=""></div>
+        <div class="media-element"><img src="assets/img/galley/g4.jpg" class="img-fluid" alt=""></div>
+        <div class="media-element"><img src="assets/img/galley/g5.jpg" class="img-fluid" alt=""></div>
+        <div class="media-element"><img src="assets/img/galley/g6.jpg" class="img-fluid" alt=""></div>
+        <div class="media-element"><img src="assets/img/galley/g7.jpg" class="img-fluid" alt=""></div>
     </div>
     <!-- ======= Chefs Section ======= -->
     <section id="chefs" class="chefs">
